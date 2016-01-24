@@ -1,0 +1,11 @@
+body {
+  padding-top: 50px;
+
+  > .container {
+    margin: 30px auto;
+
+    .pagination-wrapper {
+      text-align: center;
+    }
+  }
+}

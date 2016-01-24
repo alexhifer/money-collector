@@ -1,0 +1,13 @@
+en:
+  layouts:
+    navbar:
+      site_name: Money Collector
+      navitem:
+        available_currencies: Available currencies
+
+  currencies:
+    index:
+      table:
+        title:
+          currency_name: Currency name
+          currency_code: Currency code

@@ -1,0 +1,18 @@
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <th><%= t('.table.title.currency_name') %></th>
+    <th><%= t('.table.title.currency_code') %></th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @countries.each do |country| %>
+    <tr>
+      <td><%= country.currency_name %></td>
+      <td><%= country.currency_code %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<%= paginate @countries %>
