@@ -1,0 +1,2 @@
+# money-collector
+Test task
